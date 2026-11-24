@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>OpenAI anuncia novo modelo de raciocínio multimodal — InovaTech</title>
+<meta name="description" content="Novo modelo une texto, imagem e código em uma única cadeia de raciocínio e promete mudar o fluxo de trabalho de desenvolvedores.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+<script src="supabase-client.js"></script>
+<script src="auth.js"></script>
+</head>
+<body id="top">
+
+<nav class="navbar navbar-expand-lg main-navbar sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><i class="bi bi-broadcast-pin"></i>Inova<span>Tech</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain" aria-controls="navMain" aria-expanded="false" aria-label="Alternar navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMain">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Categorias</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="categoria.html"><i class="bi bi-robot"></i> Inteligência Artificial</a></li>
+            <li><a class="dropdown-item" href="categoria.html"><i class="bi bi-code-slash"></i> Programação</a></li>
+            <li><a class="dropdown-item" href="categoria.html"><i class="bi bi-cpu"></i> Hardware</a></li>
+            <li><a class="dropdown-item" href="categoria.html"><i class="bi bi-shield-lock"></i> Segurança</a></li>
+            <li><a class="dropdown-item" href="categoria.html"><i class="bi bi-rocket-takeoff"></i> Startups</a></li>
+            <li><a class="dropdown-item" href="categoria.html"><i class="bi bi-phone"></i> Mobile</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link active" href="leitura.html">Leitura</a></li>
+      </ul>
+      <form class="d-flex search-form" role="search" onsubmit="return false;">
+        <input type="search" placeholder="Buscar notícias..." aria-label="Buscar">
+        <button type="submit" aria-label="Buscar"><i class="bi bi-search"></i></button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<header class="page-header page-header-sm">
+  <div class="container">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb mb-0">
+        <li class="breadcrumb-item"><a href="index.html">Início</a></li>
+        <li class="breadcrumb-item"><a href="categoria.html">Inteligência Artificial</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Artigo</li>
+      </ol>
+    </nav>
+  </div>
+</header>
+
+<main class="container my-5">
+  <div class="row g-4">
+
+   
+    <article class="col-lg-8">
+      <span class="badge-cat badge-ia mb-3"><i class="bi bi-robot"></i> Inteligência Artificial</span>
+      <h1 class="article-title">OpenAI anuncia novo modelo de raciocínio multimodal capaz de unir texto, imagem e código</h1>
+
+      <div class="post-meta mb-4">
+        <span><i class="bi bi-person-circle"></i> Por Marina Alves</span>
+        <span><i class="bi bi-calendar3"></i> 26 de agosto de 2026</span>
+        <span><i class="bi bi-clock"></i> 6 min de leitura</span>
+      </div>
+
+      <img src="https://picsum.photos/seed/openai-multimodal/1000/550" class="article-img mb-2" alt="Ilustração conceitual de uma rede neural multimodal processando texto, imagem e código">
+      <p class="mono mb-4" style="color:var(--ink-faint); font-size:.78rem;">Imagem meramente ilustrativa</p>
+
+      <div class="article-content">
+        <p>A empresa anunciou nesta semana um novo modelo de inteligência artificial capaz de processar texto, imagens e trechos de código dentro de uma única cadeia de raciocínio. Segundo a companhia, o sistema representa um salto em relação às versões anteriores, que tratavam cada tipo de conteúdo de forma mais isolada.</p>
+
+        <p>Na prática, isso significa que o modelo consegue, por exemplo, analisar um diagrama desenhado à mão, entender a lógica proposta nele e gerar um trecho de código funcional a partir dessa interpretação — tudo em uma mesma conversa, sem etapas intermediárias.</p>
+
+        <blockquote>"O objetivo não é apenas somar habilidades diferentes, mas fazer o modelo raciocinar de forma unificada sobre informações de naturezas distintas", afirma a empresa em comunicado oficial.</blockquote>
+
+        <h2>Como funciona o novo modelo</h2>
+        <p>De acordo com a documentação técnica divulgada, o modelo foi treinado com um volume maior de dados combinando imagens, diagramas técnicos, documentação de software e conversas de depuração de código. Essa combinação, segundo os pesquisadores, ajuda o sistema a associar elementos visuais a conceitos de programação com mais precisão.</p>
+
+        <p>Para desenvolvedores, a promessa é reduzir etapas manuais em tarefas como transformar protótipos visuais em interfaces reais, revisar capturas de tela de erros e documentar sistemas a partir de fluxogramas. Ferramentas de programação já começam a testar integrações com a nova versão em ambientes controlados.</p>
+
+        <h2>Impacto no mercado e próximos passos</h2>
+        <p>O anúncio chega em um momento de forte concorrência entre grandes empresas de tecnologia. Companhias como Google e Microsoft também têm acelerado o desenvolvimento de modelos multimodais próprios, apostando que a integração entre diferentes tipos de conteúdo será um diferencial competitivo nos próximos anos.</p>
+
+        <p>Por enquanto, o novo modelo está disponível apenas para um grupo restrito de parceiros e desenvolvedores cadastrados em um programa de testes. A expectativa é de que o acesso seja ampliado gradualmente nas próximas semanas, com a empresa monitorando o desempenho e a segurança do sistema antes de uma liberação mais ampla.</p>
+      </div>
+
+      <div class="article-tags my-4">
+        <span class="tag">#InteligênciaArtificial</span>
+        <span class="tag">#IAMultimodal</span>
+        <span class="tag">#Desenvolvimento</span>
+        <span class="tag">#MachineLearning</span>
+      </div>
+
+      <div class="share-box d-flex align-items-center gap-2 mb-5">
+        <span class="me-2">Compartilhar:</span>
+        <a href="#" aria-label="Compartilhar no X"><i class="bi bi-twitter-x"></i></a>
+        <a href="#" aria-label="Compartilhar no LinkedIn"><i class="bi bi-linkedin"></i></a>
+        <a href="#" aria-label="Compartilhar no WhatsApp"><i class="bi bi-whatsapp"></i></a>
+        <a href="#" aria-label="Copiar link"><i class="bi bi-link-45deg"></i></a>
+      </div>
+
+      <div class="author-box d-flex gap-3 mb-5">
+        <div class="author-avatar">MA</div>
+        <div>
+          <h6>Marina Alves</h6>
+          <p class="mb-0 text-ink-dim" style="color:var(--ink-dim); font-size:.92rem;">Jornalista especializada em inteligência artificial e inovação. Cobre o setor de tecnologia há mais de 8 anos.</p>
+        </div>
+      </div>
+
+      <hr style="border-color:var(--border);">
+
+      
+      <div class="comments-section mt-5">
+        <h4 class="mb-4"><i class="bi bi-chat-dots"></i> Comentários (2)</h4>
+
+        <div class="comment mb-4 d-flex gap-3">
+          <div class="author-avatar small">CL</div>
+          <div>
+            <h6 class="mb-1">Carlos Lima <small class="text-ink-faint" style="color:var(--ink-faint); font-weight:400;">· 26 ago 2026</small></h6>
+            <p class="mb-0">Impressionante a velocidade que esses modelos estão evoluindo. Fico curioso para ver como isso vai impactar o desenvolvimento de software no dia a dia.</p>
+          </div>
+        </div>
+
+        <div class="comment mb-4 d-flex gap-3">
+          <div class="author-avatar small">JP</div>
+          <div>
+            <h6 class="mb-1">Juliana Prado <small class="text-ink-faint" style="color:var(--ink-faint); font-weight:400;">· 26 ago 2026</small></h6>
+            <p class="mb-0">Alguém sabe se essa função vai estar disponível gratuitamente ou só para quem tem plano pago?</p>
+          </div>
+        </div>
+
+        <form class="comment-form mt-5" onsubmit="return false;">
+          <h5 class="mb-3">Deixe seu comentário</h5>
+          <div class="row g-3">
+            <div class="col-md-6"><input type="text" class="form-control" placeholder="Seu nome"></div>
+            <div class="col-md-6"><input type="email" class="form-control" placeholder="Seu e-mail"></div>
+            <div class="col-12"><textarea class="form-control" rows="4" placeholder="Escreva seu comentário..."></textarea></div>
+            <div class="col-12"><button class="btn-accent" type="submit">Publicar comentário</button></div>
+          </div>
+        </form>
+      </div>
+    </article>
+
+   
+    <aside class="col-lg-4">
+      <div class="widget mb-4">
+        <h5 class="widget-title">Artigos relacionados</h5>
+        <div class="popular-post d-flex gap-3 mb-3">
+          <img src="https://picsum.photos/seed/ia-mercado-trabalho/100/100" alt="IA e mercado de trabalho">
+          <div>
+            <a href="leitura.html">Como a IA generativa está mudando o mercado de trabalho</a>
+            <small>24 ago 2026</small>
+          </div>
+        </div>
+        <div class="popular-post d-flex gap-3 mb-3">
+          <img src="https://picsum.photos/seed/assistentes-ia-empresas/100/100" alt="Assistentes de IA nas empresas">
+          <div>
+            <a href="leitura.html">Assistentes de IA nas empresas: adoção cresce 300%</a>
+            <small>22 ago 2026</small>
+          </div>
+        </div>
+        <div class="popular-post d-flex gap-3">
+          <img src="https://picsum.photos/seed/modelos-locais-dispositivos/100/100" alt="Modelos de IA locais">
+          <div>
+            <a href="leitura.html">Modelos de linguagem menores ganham espaço em dispositivos locais</a>
+            <small>21 ago 2026</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="widget mb-4">
+        <h5 class="widget-title">Categorias</h5>
+        <ul class="list-group category-list">
+          <li class="list-group-item active-cat"><a href="categoria.html"><i class="bi bi-robot"></i> Inteligência Artificial</a><span class="badge">24</span></li>
+          <li class="list-group-item"><a href="categoria.html"><i class="bi bi-code-slash"></i> Programação</a><span class="badge">31</span></li>
+          <li class="list-group-item"><a href="categoria.html"><i class="bi bi-cpu"></i> Hardware</a><span class="badge">18</span></li>
+          <li class="list-group-item"><a href="categoria.html"><i class="bi bi-shield-lock"></i> Segurança</a><span class="badge">15</span></li>
+          <li class="list-group-item"><a href="categoria.html"><i class="bi bi-rocket-takeoff"></i> Startups</a><span class="badge">12</span></li>
+          <li class="list-group-item"><a href="categoria.html"><i class="bi bi-phone"></i> Mobile</a><span class="badge">20</span></li>
+        </ul>
+      </div>
+
+      <div class="widget newsletter-widget">
+        <i class="bi bi-envelope-paper fs-2"></i>
+        <h5>Receba as notícias no seu e-mail</h5>
+        <p>Um resumo semanal do que importa em tecnologia, sem spam.</p>
+        <form onsubmit="return false;">
+          <input type="email" class="form-control mb-2" placeholder="seu@email.com" aria-label="E-mail">
+          <button class="btn-accent w-100" type="submit">Inscrever-se</button>
+        </form>
+      </div>
+    </aside>
+  </div>
+</main>
+
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-4">
+        <a class="navbar-brand" href="index.html"><i class="bi bi-broadcast-pin"></i>Inova<span>Tech</span></a>
+        <p>Jornalismo independente sobre tecnologia, inovação e o futuro digital.</p>
+        <div class="social-icons">
+          <a href="#" aria-label="X (Twitter)"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a>
+          <a href="#" aria-label="YouTube"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-6">
+        <h6>Navegação</h6>
+        <ul class="footer-links">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="categoria.html">Categorias</a></li>
+          <li><a href="leitura.html">Leitura</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-6">
+        <h6>Categorias</h6>
+        <ul class="footer-links">
+          <li><a href="categoria.html">Inteligência Artificial</a></li>
+          <li><a href="categoria.html">Programação</a></li>
+          <li><a href="categoria.html">Hardware</a></li>
+          <li><a href="categoria.html">Segurança</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3">
+        <h6>Contato</h6>
+        <ul class="footer-links">
+          <li><i class="bi bi-envelope"></i>contato@inovatech.com.br</li>
+          <li><i class="bi bi-geo-alt"></i>Porto Alegre, RS — Brasil</li>
+        </ul>
+      </div>
+    </div>
+    <hr>
+    <div class="d-flex flex-column flex-md-row justify-content-between text-center text-md-start copyright">
+      <span>© 2026 InovaTech. Todos os direitos reservados.</span>
+      <span>Projeto de estudo — construído com Bootstrap 5</span>
+    </div>
+  </div>
+</footer>
+
+<a href="#top" class="back-to-top" aria-label="Voltar ao topo"><i class="bi bi-arrow-up"></i></a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
